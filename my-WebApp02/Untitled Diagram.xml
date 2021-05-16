@@ -1,17 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T10:37:23.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" etag="caCt7dfaKdVqVBF7f6T3" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-16T15:26:25.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="DxD6_qrzZtWOrPdqWmhV" version="14.6.5" type="github">
   <diagram id="r2tn6s-OmV0yjEt6bH3z" name="Page-1">
     <mxGraphModel dx="1038" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="x64-Q3JoV57olUAE2Szb-1" value="净菜ssu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="140" width="120" height="60" as="geometry" />
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-1" value="operationmysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="x64-Q3JoV57olUAE2Szb-2" value="熟食ssu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-3" value="用于处理MySQL的数据校验，&lt;br&gt;日志输入，防止sql注入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="36.25" y="260" width="207.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="x64-Q3JoV57olUAE2Szb-3" value="包装" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="360" width="120" height="60" as="geometry" />
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;size=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="40" width="20" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-5" value="&lt;pre style=&quot;background-color: #fbfbfb ; color: #20211c ; font-family: &amp;#34;仿宋&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;_escape_args&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-6" value="用于处理传入的数据是否有sql注入数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="40" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-7" value="&lt;pre style=&quot;background-color: #fbfbfb ; color: #20211c ; font-family: &amp;#34;仿宋&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;_log_sql&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-9" value="输出sql日志" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="120" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-10" value="&lt;pre style=&quot;background-color: #fbfbfb ; color: #20211c ; font-family: &amp;#34;仿宋&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;get_conn_class&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-11" value="链接数据库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="210" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-12" value="&lt;pre style=&quot;background-color: #fbfbfb ; color: #20211c ; font-family: &amp;#34;仿宋&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;select_one&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-13" value="获取单条数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="310" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-14" value="&lt;pre style=&quot;background-color: #fbfbfb ; color: #20211c ; font-family: &amp;#34;仿宋&amp;#34; ; font-size: 12.0pt&quot;&gt;&lt;span style=&quot;color: #000000&quot;&gt;exec&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-15" value="执行sql语句" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="412" y="390" width="76" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-16" value="MysqlConntent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="224" y="585" width="20" height="355" as="geometry" />
+        </mxCell>
+        <mxCell id="Wlv_JxUp3XiH6mD4rMzx-18" value="sql操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="820" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
