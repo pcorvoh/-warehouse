@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-08T08:21:34.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="v6tvKl0sZMmXl0p-mjYl" version="15.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T08:45:18.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="dzR7eb0mcuy9zMhlJG3S" version="15.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,6 +63,20 @@
         </mxCell>
         <mxCell id="XHB5TGA3l9MUtpr5Tyv0-38" value="普通创建订单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="100" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XHB5TGA3l9MUtpr5Tyv0-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XHB5TGA3l9MUtpr5Tyv0-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379.7550000000001" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XHB5TGA3l9MUtpr5Tyv0-39" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=-90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="334.88" y="394.88" width="89.75" height="437.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XHB5TGA3l9MUtpr5Tyv0-40" value="发布采购计划和生产计划" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="396.25" y="630" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XHB5TGA3l9MUtpr5Tyv0-42" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="345" y="510" width="70" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
