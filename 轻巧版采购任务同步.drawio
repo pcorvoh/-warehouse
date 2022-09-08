@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T07:17:49.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="8TA9_3jtoe0XwZarvtY8" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T07:55:05.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="trsCNbN9YcA8P5vCO5F5" version="20.3.0" type="github">
   <diagram id="ye2RUaFVlnxV50ZEqhlz" name="第 1 页">
     <mxGraphModel dx="2249" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,6 +67,9 @@
         </mxCell>
         <mxCell id="8KBfvsnZZaP_vf3h1O1c-11" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-300" y="575" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8KBfvsnZZaP_vf3h1O1c-13" value="添加到购物车" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="771" y="801" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
