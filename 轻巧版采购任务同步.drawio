@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T07:04:57.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="IWlwo9hxgHdQtqtoDmJl" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T07:17:49.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="8TA9_3jtoe0XwZarvtY8" version="20.3.0" type="github">
   <diagram id="ye2RUaFVlnxV50ZEqhlz" name="第 1 页">
     <mxGraphModel dx="2249" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -24,9 +24,14 @@
         <mxCell id="lqc4Ca-nyEtZ-Kyz2MPw-3" value="采购任务" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8KBfvsnZZaP_vf3h1O1c-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8KBfvsnZZaP_vf3h1O1c-3">
+        <mxCell id="8KBfvsnZZaP_vf3h1O1c-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;" edge="1" parent="1" source="8KBfvsnZZaP_vf3h1O1c-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-50" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KBfvsnZZaP_vf3h1O1c-12" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="8KBfvsnZZaP_vf3h1O1c-4">
+          <mxGeometry x="-0.3286" y="5" relative="1" as="geometry">
+            <mxPoint x="5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8KBfvsnZZaP_vf3h1O1c-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8KBfvsnZZaP_vf3h1O1c-3">
@@ -42,6 +47,26 @@
         </mxCell>
         <mxCell id="8KBfvsnZZaP_vf3h1O1c-7" value="主动添加商品" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="660" y="400" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8KBfvsnZZaP_vf3h1O1c-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8KBfvsnZZaP_vf3h1O1c-8" target="lqc4Ca-nyEtZ-Kyz2MPw-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-400" y="600" />
+              <mxPoint x="-400" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KBfvsnZZaP_vf3h1O1c-8" value="是否是新商品" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="560" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8KBfvsnZZaP_vf3h1O1c-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;" edge="1" parent="1" source="8KBfvsnZZaP_vf3h1O1c-3" target="8KBfvsnZZaP_vf3h1O1c-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-50" y="780" as="targetPoint" />
+            <mxPoint x="300" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8KBfvsnZZaP_vf3h1O1c-11" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="575" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
