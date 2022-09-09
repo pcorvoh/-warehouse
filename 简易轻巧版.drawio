@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-09T10:13:24.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="ieN25bhqgxoR9kweLXyG" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-09T10:19:46.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="dMMZgfP7rMwv-WrOo8fR" version="20.3.0" type="github">
   <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
     <mxGraphModel dx="2522" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -32,24 +32,6 @@
         </mxCell>
         <mxCell id="vpn2IhWyudR7F19uE5Y_-9" value="极速录单" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="480" width="120" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="vpn2IhWyudR7F19uE5Y_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vpn2IhWyudR7F19uE5Y_-17" target="vpn2IhWyudR7F19uE5Y_-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vpn2IhWyudR7F19uE5Y_-17" value="创建商品" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="730" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vpn2IhWyudR7F19uE5Y_-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="1396" y="648.5" width="222.5" height="222.5" as="geometry" />
-        </mxCell>
-        <mxCell id="vpn2IhWyudR7F19uE5Y_-19" value="商品库" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="1410" y="715" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="vpn2IhWyudR7F19uE5Y_-20" value="购物车" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="1530" y="715" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="vpn2IhWyudR7F19uE5Y_-30" value="成功" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1190" y="1010" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vpn2IhWyudR7F19uE5Y_-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vpn2IhWyudR7F19uE5Y_-36" target="vpn2IhWyudR7F19uE5Y_-46" edge="1">
           <mxGeometry relative="1" as="geometry">
